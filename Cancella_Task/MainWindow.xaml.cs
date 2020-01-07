@@ -45,6 +45,7 @@ namespace Cancella_Task
             Task.Factory.StartNew(() => DoWork(max, delay, Txt_Countdown3));
         }
 
+
         private void DoWork(int max,int delay, TextBox txt)
         {
             for(int i=0; i<=100; i++)
